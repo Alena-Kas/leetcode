@@ -7,10 +7,6 @@ Time: O(N), Space: O(1)
 
 class Solution(object):
     def romanToInt(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
         res = 0
         roman = {'I': 1, 'V': 5,
                  'X': 10, 'L': 50,
